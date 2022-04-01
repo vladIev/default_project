@@ -1,0 +1,8 @@
+[requires]
+opencv/4.5.5
+spdlog/1.9.2
+gtest/1.8.1
+fakeit/2.0.9
+
+[generators]
+cmake

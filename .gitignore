@@ -1,0 +1,6 @@
+
+.vs/
+build/
+conan/debug/
+
+conan/release/
