@@ -1,1 +1,1 @@
-default_project_msvc
+Template project with configured CMake, GTest and Conan
