@@ -1,0 +1,7 @@
+---
+Checks:          '*, clang-analyzer-*, cppcoreguidelines-*, modernize-*, performance-*, llvm-*'
+WarningsAsErrors: ''
+HeaderFilterRegex: ''
+UseColor: ''
+InheritParentConfig: true
+FormatStyle:     file
