@@ -18,6 +18,7 @@ include(${CMAKE_CURRENT_LIST_DIR}/cmake/ConanInstall.cmake)
 prepare_conan()
 
 add_subdirectory(src)
+add_subdirectory(doc)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
