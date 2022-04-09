@@ -7,10 +7,17 @@
       "inheritEnvironments": [ "msvc_x64_x64" ],
       "buildRoot": "${projectDir}\\build\\${name}",
       "installRoot": "${projectDir}\\install\\${name}",
-      "cmakeCommandArgs": "",
+      "cmakeCommandArgs": "-DENABLE_CCACHE=ON  -DENABLE_CLANG_TIDY=ON -DENABLE_PCH=ON",
       "buildCommandArgs": "",
       "ctestCommandArgs": "",
-      "enableClangTidyCodeAnalysis": true
+      "enableClangTidyCodeAnalysis": true,
+      "variables": [
+        {
+          "name": "CCACHE_PROGRAM",
+          "value": "C:/ProgramData/chocolatey/bin/ccache.exe",
+          "type": "FILEPATH"
+        }
+      ]
     },
     {
       "name": "x64-Release",
