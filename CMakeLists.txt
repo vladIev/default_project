@@ -1,9 +1,6 @@
 cmake_minimum_required(VERSION 3.0.0)
 project(default_project VERSION 0.1.0)
 
-include(CTest)
-enable_testing()
-
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake")
 list(APPEND CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}")
 
@@ -42,6 +39,7 @@ include(CPack)
 if(CMAKE_PROJECT_NAME STREQUAL PROJECT_NAME)
   include(CTest)
   if(BUILD_TESTING)
+    enable_testing()
     add_subdirectory(test)
   endif()
 endif()

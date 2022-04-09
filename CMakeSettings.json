@@ -7,7 +7,7 @@
       "inheritEnvironments": [ "msvc_x64_x64" ],
       "buildRoot": "${projectDir}\\build\\${name}",
       "installRoot": "${projectDir}\\install\\${name}",
-      "cmakeCommandArgs": "-DENABLE_CCACHE=ON  -DENABLE_CLANG_TIDY=ON -DENABLE_PCH=ON",
+      "cmakeCommandArgs": "-DENABLE_CCACHE=ON  -DENABLE_CLANG_TIDY=OFF -DENABLE_PCH=ON",
       "buildCommandArgs": "",
       "ctestCommandArgs": "",
       "enableClangTidyCodeAnalysis": true,
